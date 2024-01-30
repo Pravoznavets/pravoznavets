@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/pravoznavets/static/css/main.7cda0caf.css",
+    "main.js": "/pravoznavets/static/js/main.2f23a5ad.js",
+    "static/js/519.9f7536d6.chunk.js": "/pravoznavets/static/js/519.9f7536d6.chunk.js",
+    "static/js/548.a303201b.chunk.js": "/pravoznavets/static/js/548.a303201b.chunk.js",
+    "static/js/391.55455ea0.chunk.js": "/pravoznavets/static/js/391.55455ea0.chunk.js",
+    "static/js/557.f1f81e2e.chunk.js": "/pravoznavets/static/js/557.f1f81e2e.chunk.js",
+    "static/js/787.5d6bd44e.chunk.js": "/pravoznavets/static/js/787.5d6bd44e.chunk.js",
+    "static/media/deskinlibrary2x.png": "/pravoznavets/static/media/deskinlibrary2x.14b1656827f2272839aa.png",
+    "static/media/deskinlibrary1x.png": "/pravoznavets/static/media/deskinlibrary1x.0c87789e010b712a127c.png",
+    "static/media/oldcity-2x.jpg": "/pravoznavets/static/media/oldcity-2x.95c5fd3dec1b5b98ae6a.jpg",
+    "static/media/bussines_1280_853-2x.jpg": "/pravoznavets/static/media/bussines_1280_853-2x.32f7ba7ef39e3d7dfd4a.jpg",
+    "static/media/oldcity-1x.jpg": "/pravoznavets/static/media/oldcity-1x.1135d8fb92401d011559.jpg",
+    "static/media/service3.jpg": "/pravoznavets/static/media/service3.40e1818b272bc3daca32.jpg",
+    "static/media/lamp-2x.jpg": "/pravoznavets/static/media/lamp-2x.e79429e8cd8aa8e7bf94.jpg",
+    "static/media/service5.jpg": "/pravoznavets/static/media/service5.4ae3f00c01cb49a0acec.jpg",
+    "static/media/service4.jpg": "/pravoznavets/static/media/service4.6107bc65da6758a2aab1.jpg",
+    "static/media/woodendesk-2x.jpg": "/pravoznavets/static/media/woodendesk-2x.d4cdc23cd0e3fb00491f.jpg",
+    "static/media/service1.jpg": "/pravoznavets/static/media/service1.89255111112e0eb50617.jpg",
+    "static/media/pravoznavets-hero.webp": "/pravoznavets/static/media/pravoznavets-hero.c7de2fd7bc2126974af7.webp",
+    "static/media/service7.jpg": "/pravoznavets/static/media/service7.33fdc0d6eca8c730d1fd.jpg",
+    "static/media/woodendesk-1x.jpg": "/pravoznavets/static/media/woodendesk-1x.bd0ae80d1a997c80feaa.jpg",
+    "static/media/service8.jpg": "/pravoznavets/static/media/service8.53aae745bee4993230d7.jpg",
+    "static/media/lamp-1x.jpg": "/pravoznavets/static/media/lamp-1x.aded00b5323a87a5235e.jpg",
+    "static/media/sprite.svg": "/pravoznavets/static/media/sprite.d6b2e9b4d6b972f2c37ce715035d1c64.svg",
+    "index.html": "/pravoznavets/index.html",
+    "main.7cda0caf.css.map": "/pravoznavets/static/css/main.7cda0caf.css.map",
+    "main.2f23a5ad.js.map": "/pravoznavets/static/js/main.2f23a5ad.js.map",
+    "519.9f7536d6.chunk.js.map": "/pravoznavets/static/js/519.9f7536d6.chunk.js.map",
+    "548.a303201b.chunk.js.map": "/pravoznavets/static/js/548.a303201b.chunk.js.map",
+    "391.55455ea0.chunk.js.map": "/pravoznavets/static/js/391.55455ea0.chunk.js.map",
+    "557.f1f81e2e.chunk.js.map": "/pravoznavets/static/js/557.f1f81e2e.chunk.js.map",
+    "787.5d6bd44e.chunk.js.map": "/pravoznavets/static/js/787.5d6bd44e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cda0caf.css",
+    "static/js/main.2f23a5ad.js"
+  ]
+}
