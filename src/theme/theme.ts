@@ -30,7 +30,7 @@ const color: Record<Color, string> = {
 };
 
 const media: Record<MediaRequest, string> = {
-  mobile: "(min-width: 360px)",
+  mobile: "(min-width: 320px)",
   tablet: "(min-width: 768px)",
   desktop: "(min-width: 1280px)",
 };

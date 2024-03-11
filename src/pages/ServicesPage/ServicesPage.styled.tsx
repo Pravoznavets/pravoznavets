@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { selectDesktop, selectTablet } from "utils/selectMediaRequests";
 
 export const SectionsContainer = styled.section`
   padding-top: 92px;
@@ -10,6 +11,7 @@ export const FullServiceList = styled.ul`
   flex-wrap: wrap;
   gap: 30px;
 
+  width: 100%;
   margin: 0 auto;
 `;
 
@@ -33,11 +35,16 @@ export const ServiceHiddenText = styled.p`
   width: calc(100% - 48px);
   line-height: 1.56;
   color: white;
-  font-size: ${({ theme }) => theme.fontSize.mobile.secondary};
+  font-size: ${({ theme }) => theme.fontSize.mobile.primary};
+
+  @media ${selectDesktop} {
+    line-height: 1.17;
+    font-size: ${({ theme }) => theme.fontSize.mobile.secondary};
+  }
 `;
 
 export const ServiceListItem = styled.li`
-  width: calc((100% - 60px) / 3);
+  width: 100%;
   border: 1px solid ${({ theme }) => theme.color.secondaryBackgroundColor};
   transition: all ${({ theme }) => theme.transitionHover};
 
@@ -49,6 +56,14 @@ export const ServiceListItem = styled.li`
     & ${ServiceDescription} {
       top: 0;
     }
+  }
+
+  @media ${selectTablet} {
+    width: calc((100% - 30px) / 2);
+  }
+
+  @media ${selectDesktop} {
+    width: calc((100% - 60px) / 3);
   }
 `;
 
@@ -67,4 +82,5 @@ export const ServiceTitle = styled.h2`
   padding: 20px 24px;
   text-decoration: none;
   color: ${({ theme }) => theme.color.primaryTextColor};
+  text-align: center;
 `;

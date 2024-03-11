@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React from "react";
 import {
   ContactItem,
   ContactList,
@@ -14,8 +14,14 @@ import {
 } from "./Header.styled";
 import Container from "components/Container";
 import Icon from "components/Icon/Icon";
+import BurgerMenu from "components/BurgerMenu";
 
-const Header: FC = () => {
+type Props = {
+  toggleModal: () => void;
+  open: boolean;
+};
+
+const Header: React.FC<Props> = ({ toggleModal, open }) => {
   return (
     <div
       style={{
@@ -58,6 +64,7 @@ const Header: FC = () => {
               </ContactItem>
             </ContactList>
           </HeaderInfo>
+          <BurgerMenu toggleModal={toggleModal} open={open} />
         </HeaderContainer>
       </Container>
     </div>

@@ -1,21 +1,27 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import { selectDesktop, selectTablet } from "utils/selectMediaRequests";
 
 export const HeaderContainer = styled.header`
   display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
   width: 100%;
   padding: 12px 0;
   margin: 0 auto;
-
-  align-items: center;
 `;
 
 export const Logo = styled.div`
-  margin-right: 93px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: ${({ theme }) => theme.color.primaryTextColor};
   font-size: ${({ theme }) => theme.fontSize.desktop.logo};
+
+  @media ${selectDesktop} {
+    margin-right: 93px;
+  }
 `;
 
 export const LogoLink = styled(NavLink)`
@@ -27,19 +33,33 @@ export const LogoAccent = styled.span`
 `;
 
 export const HeaderInfo = styled.div`
-  display: flex;
+  display: none;
   justify-content: space-between;
 
   width: 100%;
 
   color: ${({ theme }) => theme.color.secondaryTextColor};
   font-weight: 500;
+
+  @media ${selectTablet} {
+    display: flex;
+  }
+
+  @media ${selectDesktop} {
+    display: flex;
+  }
 `;
 
 export const NavList = styled.ul`
+  padding-left: 20px;
   display: flex;
-  gap: 50px;
+  gap: 30px;
   align-items: center;
+
+  @media ${selectDesktop} {
+    padding-left: 0px;
+    gap: 50px;
+  }
 `;
 
 export const StyledLink = styled(NavLink)`
@@ -73,12 +93,21 @@ export const NavItem = styled.li`
 
 export const ContactList = styled.ul`
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-  gap: 30px;
+  @media ${selectDesktop} {
+    flex-direction: row;
+    gap: 30px;
+  }
 `;
 
 export const ContactItem = styled.li`
-  padding: 32px 0;
+  padding: 8px 0;
+
+  @media ${selectDesktop} {
+    padding: 32px 0;
+  }
 `;
 
 export const ContactLink = styled.a`
