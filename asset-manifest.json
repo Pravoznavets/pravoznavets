@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/pravoznavets/static/css/main.7cda0caf.css",
-    "main.js": "/pravoznavets/static/js/main.2f23a5ad.js",
-    "static/js/519.9f7536d6.chunk.js": "/pravoznavets/static/js/519.9f7536d6.chunk.js",
-    "static/js/548.a303201b.chunk.js": "/pravoznavets/static/js/548.a303201b.chunk.js",
-    "static/js/391.55455ea0.chunk.js": "/pravoznavets/static/js/391.55455ea0.chunk.js",
+    "main.js": "/pravoznavets/static/js/main.e80dbde6.js",
+    "static/js/519.c153a38b.chunk.js": "/pravoznavets/static/js/519.c153a38b.chunk.js",
+    "static/js/548.5694bd19.chunk.js": "/pravoznavets/static/js/548.5694bd19.chunk.js",
+    "static/js/391.8f814e49.chunk.js": "/pravoznavets/static/js/391.8f814e49.chunk.js",
     "static/js/557.f1f81e2e.chunk.js": "/pravoznavets/static/js/557.f1f81e2e.chunk.js",
     "static/js/787.5d6bd44e.chunk.js": "/pravoznavets/static/js/787.5d6bd44e.chunk.js",
     "static/media/deskinlibrary2x.png": "/pravoznavets/static/media/deskinlibrary2x.14b1656827f2272839aa.png",
@@ -26,15 +26,15 @@
     "static/media/sprite.svg": "/pravoznavets/static/media/sprite.d6b2e9b4d6b972f2c37ce715035d1c64.svg",
     "index.html": "/pravoznavets/index.html",
     "main.7cda0caf.css.map": "/pravoznavets/static/css/main.7cda0caf.css.map",
-    "main.2f23a5ad.js.map": "/pravoznavets/static/js/main.2f23a5ad.js.map",
-    "519.9f7536d6.chunk.js.map": "/pravoznavets/static/js/519.9f7536d6.chunk.js.map",
-    "548.a303201b.chunk.js.map": "/pravoznavets/static/js/548.a303201b.chunk.js.map",
-    "391.55455ea0.chunk.js.map": "/pravoznavets/static/js/391.55455ea0.chunk.js.map",
+    "main.e80dbde6.js.map": "/pravoznavets/static/js/main.e80dbde6.js.map",
+    "519.c153a38b.chunk.js.map": "/pravoznavets/static/js/519.c153a38b.chunk.js.map",
+    "548.5694bd19.chunk.js.map": "/pravoznavets/static/js/548.5694bd19.chunk.js.map",
+    "391.8f814e49.chunk.js.map": "/pravoznavets/static/js/391.8f814e49.chunk.js.map",
     "557.f1f81e2e.chunk.js.map": "/pravoznavets/static/js/557.f1f81e2e.chunk.js.map",
     "787.5d6bd44e.chunk.js.map": "/pravoznavets/static/js/787.5d6bd44e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7cda0caf.css",
-    "static/js/main.2f23a5ad.js"
+    "static/js/main.e80dbde6.js"
   ]
 }
