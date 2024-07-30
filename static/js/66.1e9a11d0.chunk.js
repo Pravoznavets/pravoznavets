@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpravoznavets=self.webpackChunkpravoznavets||[]).push([[66],{7988:(t,a,s)=>{s.r(a),s.d(a,{default:()=>i});const e=s.p+"static/media/404.6ff348916d660c7dfd20.jpg";var n=s(1087),o=s(184);const i=()=>(0,o.jsx)(n.rU,{to:"/",children:(0,o.jsx)("img",{src:e,alt:"Not found page in book",width:"50%",style:{marginLeft:"auto",marginRight:"auto"}})})}}]);
+//# sourceMappingURL=66.1e9a11d0.chunk.js.map
