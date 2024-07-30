@@ -13,10 +13,11 @@ import DeskImg1x from "assets/images/MainPage/woodendesk-1x.jpg";
 import DeskImg2x from "assets/images/MainPage/woodendesk-2x.jpg";
 import LampImg1x from "assets/images/MainPage/lamp-1x.jpg";
 import LampImg2x from "assets/images/MainPage/lamp-2x.jpg";
-import OldCityImg1x from "assets/images/MainPage/oldcity-1x.jpg";
-import OldCityImg2x from "assets/images/MainPage/oldcity-2x.jpg";
+// import OldCityImg1x from "assets/images/MainPage/oldcity-1x.jpg";
+// import OldCityImg2x from "assets/images/MainPage/oldcity-2x.jpg";
 import DeskInLibraryImg1x from "assets/images/MainPage/deskinlibrary1x.png";
 import DeskInLibraryImg2x from "assets/images/MainPage/deskinlibrary2x.png";
+import ceo1 from "assets/images/CEO/ceo1.jpg";
 
 const Services: FC = () => {
   return (
@@ -26,8 +27,8 @@ const Services: FC = () => {
         <ServiceList>
           <ServiceItem>
             <Img
-              srcSet={`${DeskImg1x} 1x, ${DeskImg2x} 2x`}
-              src={DeskImg2x}
+              srcSet={`${ceo1} 1x, ${ceo1} 2x`}
+              src={ceo1}
               alt="Ноутбук, Офис, Рука, Пишу, Бизнес"
             />
             <ServiceText>
@@ -39,9 +40,9 @@ const Services: FC = () => {
           </ServiceItem>
           <ServiceItem>
             <Img
-              srcSet={`${LampImg1x} 1x, ${LampImg2x} 2x`}
-              src={LampImg2x}
-              alt="Знак торгової марки"
+              srcSet={`${DeskImg1x} 1x, ${DeskImg2x} 2x`}
+              src={DeskImg2x}
+              alt="Ноутбук, Офіс, Пишу, Юрист, Бізнес, Право"
             />
             <ServiceText>
               Починаючи свій бізнес, ми часто не приділяємо уваги захисту наших
@@ -56,9 +57,9 @@ const Services: FC = () => {
           </ServiceItem>
           <ServiceItem>
             <Img
-              srcSet={`${OldCityImg1x} 1x, ${OldCityImg2x} 2x`}
-              src={OldCityImg2x}
-              alt="Шаблони штрих-кодів"
+              srcSet={`${LampImg1x} 1x, ${LampImg2x} 2x`}
+              src={LampImg2x}
+              alt="Лампа антикваріат на столі у юриста"
             />
             <ServiceText>
               <b>Реєстрація штрих-коду</b> має важливе значення для роботи

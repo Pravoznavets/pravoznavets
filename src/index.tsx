@@ -10,9 +10,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter basename="/pravoznavets">
-      <React.Suspense fallback={<div>Loading...</div>}>
-        <App />
-      </React.Suspense>
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );

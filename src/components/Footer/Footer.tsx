@@ -6,7 +6,10 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <IconWrapper>
-        <NavLink to={`/`} target="blank">
+        <NavLink
+          to={`https://www.linkedin.com/in/oksana-shulga-5091a8290`}
+          target="blank"
+        >
           <Icon iconName="icon-linkedin" />
         </NavLink>
       </IconWrapper>

@@ -39,13 +39,13 @@ const Header: React.FC<Props> = ({ toggleModal, open }) => {
             <nav>
               <NavList>
                 <NavItem>
-                  <StyledLink to="articles">Статті </StyledLink>
+                  <StyledLink to="/">Головна </StyledLink>
                 </NavItem>
                 <NavItem>
                   <StyledLink to="services">Послуги </StyledLink>
                 </NavItem>
                 <NavItem>
-                  <StyledLink to="/">Контакти/Про нас </StyledLink>
+                  <StyledLink to="articles">Статті </StyledLink>
                 </NavItem>
               </NavList>
             </nav>
