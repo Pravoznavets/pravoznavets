@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Button, HeroTitle, Section } from "./Hero.styled";
+import { Button, ButtonLink, HeroTitle, Section } from "./Hero.styled";
 import Container from "components/Container";
 import Icon from "components/Icon/Icon";
 
@@ -10,10 +10,20 @@ const Hero: FC = () => {
         <HeroTitle>
           Наші послуги можуть стати для вас як щитом, так і мечем
         </HeroTitle>
-        <Button>
-          <span>Замовити консультацію</span>
-          <Icon iconName="icon-send" />
-        </Button>
+        <ButtonLink
+          to="https://t.me/AdvokatOkcana"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <Button>
+            <span>Замовити консультацію</span>
+            <Icon iconName="icon-send" />
+          </Button>
+        </ButtonLink>
       </Container>
     </Section>
   );

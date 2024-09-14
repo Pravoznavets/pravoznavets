@@ -2,6 +2,14 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { selectDesktop, selectTablet } from "utils/selectMediaRequests";
 
+export const HeaderThumb = styled.div`
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  background-color: white;
+  z-index: 2;
+`;
+
 export const HeaderContainer = styled.header`
   display: flex;
 

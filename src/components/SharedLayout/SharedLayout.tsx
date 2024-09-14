@@ -3,6 +3,7 @@ import Footer from "components/Footer";
 import Header from "components/Header";
 import AppRoutes from "routes/AppRoutes";
 import Modal from "components/Modal";
+import { Main } from "./SharedLayout.styled";
 
 const SharedLayout: FC = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -23,9 +24,9 @@ const SharedLayout: FC = () => {
   return (
     <>
       <Header toggleModal={toggleModal} open={isModalOpen} />
-      <main>
+      <Main>
         <AppRoutes />
-      </main>
+      </Main>
       <Footer />
       <Modal toggleModal={toggleModal} open={isModalOpen} />
     </>

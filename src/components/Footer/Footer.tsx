@@ -13,13 +13,17 @@ const Footer = () => {
           <Icon iconName="icon-linkedin" />
         </NavLink>
       </IconWrapper>
-      <IconWrapper>
+      {/* <IconWrapper>
         <NavLink to={`/`} target="blank">
           <Icon iconName="icon-instagram" />
         </NavLink>
-      </IconWrapper>
+      </IconWrapper> */}
       <IconWrapper>
-        <NavLink to={`/`} target="blank">
+        <NavLink
+          to="https://t.me/AdvokatOkcana"
+          target="blank"
+          rel="noopener noreferrer"
+        >
           <Icon iconName="icon-send" />
         </NavLink>
       </IconWrapper>

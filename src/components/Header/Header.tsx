@@ -11,6 +11,7 @@ import {
   NavList,
   StyledLink,
   ContactLink,
+  HeaderThumb,
 } from "./Header.styled";
 import Container from "components/Container";
 import Icon from "components/Icon/Icon";
@@ -23,11 +24,7 @@ type Props = {
 
 const Header: React.FC<Props> = ({ toggleModal, open }) => {
   return (
-    <div
-      style={{
-        borderBottom: `1px solid grey`,
-      }}
-    >
+    <HeaderThumb>
       <Container>
         <HeaderContainer>
           <LogoLink to="/">
@@ -59,7 +56,7 @@ const Header: React.FC<Props> = ({ toggleModal, open }) => {
               <ContactItem>
                 <ContactLink href="mailto:info@pravoznavets.kiev.ua">
                   <Icon iconName="icon-mail" />
-                  <span>info@pravoznavets.kiev.ua</span>
+                  <span>shulgaoksana88@gmail.com</span>
                 </ContactLink>
               </ContactItem>
             </ContactList>
@@ -67,7 +64,7 @@ const Header: React.FC<Props> = ({ toggleModal, open }) => {
           <BurgerMenu toggleModal={toggleModal} open={open} />
         </HeaderContainer>
       </Container>
-    </div>
+    </HeaderThumb>
   );
 };
 

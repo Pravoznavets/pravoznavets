@@ -7,6 +7,7 @@ export const ArticleContainer = styled.div`
 export const ArticleTitle = styled.h1`
   text-align: center;
   margin-bottom: 24px;
+  margin-top: 24px;
   font-size: 40px;
 `;
 

@@ -56,6 +56,31 @@ const CopyrightRegistration = lazy(
 const LicenseForAlcohol = lazy(
   () => import("pages/ArticlesPage/Articles/LicenseForAlcohol")
 );
+const EmployeeDismissal = lazy(
+  () => import("pages/ArticlesPage/Articles/EmployeeDismissal")
+);
+const ElectronicPrescription = lazy(
+  () => import("pages/ArticlesPage/Articles/ElectronicPrescription")
+);
+const EnterpriseAutoTransport = lazy(
+  () => import("pages/ArticlesPage/Articles/EnterpriseAutoTransport")
+);
+const EnterpriseCivilProtection = lazy(
+  () => import("pages/ArticlesPage/Articles/EnterpriseCivilProtection")
+);
+const FamiliarizingEmployeesWithDocuments = lazy(
+  () =>
+    import("pages/ArticlesPage/Articles/FamiliarizingEmployeesWithDocuments")
+);
+const MedicalProductProduction = lazy(
+  () => import("pages/ArticlesPage/Articles/MedicalProductProduction")
+);
+const PricesFormation = lazy(
+  () => import("pages/ArticlesPage/Articles/PricesFormation")
+);
+const TaxationOfOpertaions = lazy(
+  () => import("pages/ArticlesPage/Articles/TaxationOfOpertaions")
+);
 
 const AppRoutes: FC = () => {
   return (
@@ -123,6 +148,38 @@ const AppRoutes: FC = () => {
           <Route
             path="articles/license-for-alcohol"
             element={<LicenseForAlcohol />}
+          />
+          <Route
+            path="articles/electronic-prescroption"
+            element={<ElectronicPrescription />}
+          />
+          <Route
+            path="articles/employee-dismissal"
+            element={<EmployeeDismissal />}
+          />
+          <Route
+            path="articles/enterprise-auto-transport"
+            element={<EnterpriseAutoTransport />}
+          />
+          <Route
+            path="articles/familiarizing-employees-with-documents"
+            element={<FamiliarizingEmployeesWithDocuments />}
+          />
+          <Route
+            path="articles/enterprise-civil-protection"
+            element={<EnterpriseCivilProtection />}
+          />
+          <Route
+            path="articles/medical-product-production"
+            element={<MedicalProductProduction />}
+          />
+          <Route
+            path="articles/price-formation"
+            element={<PricesFormation />}
+          />
+          <Route
+            path="articles/taxation-of-operations"
+            element={<TaxationOfOpertaions />}
           />
         </Route>
         <Route path="*" element={<NotFoundPage />} />

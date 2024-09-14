@@ -46,7 +46,7 @@ const Modal: React.FC<Props> = ({ toggleModal, open }) => {
             <ModalContactItem>
               <ModalContactLink href="mailto:info@pravoznavets.kiev.ua">
                 <Icon iconName="icon-mail" />
-                <span>info@pravoznavets.kiev.ua</span>
+                <span>shulgaoksana88@gmail.com</span>
               </ModalContactLink>
             </ModalContactItem>
           </ModalContactList>
