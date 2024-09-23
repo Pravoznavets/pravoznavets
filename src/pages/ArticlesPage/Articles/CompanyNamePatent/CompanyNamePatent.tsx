@@ -1,9 +1,9 @@
 import Container from "components/Container";
-import React, { FC } from "react";
+import { FC } from "react";
 import {
   ArticleContainer,
   ArticleList,
-  ArticleListItem,
+  ArticleNumberedItem,
   ArticleParagraphTitle,
   ArticlePointTitle,
   ArticleText,
@@ -78,14 +78,14 @@ const CompanyNamePatent: FC = () => {
           Основними етапами реєстрації товарного знака є:
         </ArticleText>
         <ArticleList>
-          <ArticleListItem>
+          <ArticleNumberedItem>
             1. Проведення перевірки товарного знака на схожі позначення раніше
             зареєстрованих товарних знаків.
-          </ArticleListItem>
-          <ArticleListItem>
+          </ArticleNumberedItem>
+          <ArticleNumberedItem>
             2. Підготовка документів для реєстрації в Укрпатенті.
-          </ArticleListItem>
-          <ArticleListItem>3. Видача свідоцтва.</ArticleListItem>
+          </ArticleNumberedItem>
+          <ArticleNumberedItem>3. Видача свідоцтва.</ArticleNumberedItem>
         </ArticleList>
         <ArticlePointTitle>
           В чому відмінність товарного знака від патенту?

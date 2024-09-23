@@ -29,10 +29,10 @@ const Modal: React.FC<Props> = ({ toggleModal, open }) => {
                 <ModalStyledLink to="/">Головна</ModalStyledLink>
               </ModalNavItem>
               <ModalNavItem onClick={toggleModal}>
-                <ModalStyledLink to="articles">Статті </ModalStyledLink>
+                <ModalStyledLink to="services">Послуги </ModalStyledLink>
               </ModalNavItem>
               <ModalNavItem onClick={toggleModal}>
-                <ModalStyledLink to="services">Послуги </ModalStyledLink>
+                <ModalStyledLink to="articles">Статті </ModalStyledLink>
               </ModalNavItem>
             </ModalNavList>
           </nav>

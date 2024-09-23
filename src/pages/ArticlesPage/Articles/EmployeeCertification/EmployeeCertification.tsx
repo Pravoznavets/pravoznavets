@@ -4,9 +4,11 @@ import {
   ArticleContainer,
   ArticleList,
   ArticleListItem,
-  ArticlePointTitle,
   ArticleText,
   ArticleTitle,
+  LiteratureHeader,
+  LiteratureItem,
+  LiteratureList,
 } from "../Articles.styled";
 
 const EmployeeCertification: FC = () => {
@@ -351,46 +353,46 @@ const EmployeeCertification: FC = () => {
           проведення.
         </ArticleText>
         <ArticleText>Автор О.В.Шульга</ArticleText>
-        <ArticlePointTitle>Список літератури</ArticlePointTitle>
-        <ArticleList>
-          <ArticleListItem>
+        <LiteratureHeader>Список літератури</LiteratureHeader>
+        <LiteratureList>
+          <LiteratureItem>
             1. Кодекс законів про працю України: чинне законодавство зі змінами
             та допов. Станом на 25 серп. 2008 р.: (відповідає офіц. текстові). –
             К.: Вид. ПАЛИВОДА А.В., 2008. – 104 с. – (Кодекси України).
-          </ArticleListItem>
-          <ArticleListItem>
+          </LiteratureItem>
+          <LiteratureItem>
             2. Постанова Кабінету Міністрів України “Про затвердження Положення
             про проведення атестації державних службовців” від 28 грудня 2000 р.
             № 1922 // ЗП Уряду України. – 1996. – № 16. – Ст. 448.
-          </ArticleListItem>
-          <ArticleListItem>
+          </LiteratureItem>
+          <LiteratureItem>
             3. Наказ Державного комітету стандартизації, метрології та
             сертифікації України “Про затвердження Порядку проведення атестації
             державних інспекторів з метрологічного нагляду (ПМУ 22-2002)” від 13
             лютого 2002 року № 91 // Internet. – http://www.rada.gov.ua
-          </ArticleListItem>
-          <ArticleListItem>
+          </LiteratureItem>
+          <LiteratureItem>
             4. Курилов В. И. Аттестация и личность работника в советском
             трудовом праве. – Владивосток: Издательство Дальневосточного
             университета, 1983. – 200 с.
-          </ArticleListItem>
-          <ArticleListItem>
+          </LiteratureItem>
+          <LiteratureItem>
             5. Мелешко Х. Т. Правовые проблемы аттестации рабочих и служащих. –
             Минск, 1990. – 104 с.
-          </ArticleListItem>
-          <ArticleListItem>
+          </LiteratureItem>
+          <LiteratureItem>
             6. Полетаев Ю. Н. Аттестация работников: правовове регулирование,
             организационные вопросы. – М.: “Проспект”, 2001. – 112 с.
-          </ArticleListItem>
-          <ArticleListItem>
+          </LiteratureItem>
+          <LiteratureItem>
             7. Словарь по трудовому праву / Отв. ред. Ю. П. Орловский. – М.:
             БЕК, 1998. – 600 с.
-          </ArticleListItem>
-          <ArticleListItem>
+          </LiteratureItem>
+          <LiteratureItem>
             8. Юридична енциклопедія: В 6 т. / Ю. С. Шемшученко відп. ред. . –
             К.: “Укр.енцикл.”, 1998. – Т.1: А-Г. – 672 с.
-          </ArticleListItem>
-        </ArticleList>
+          </LiteratureItem>
+        </LiteratureList>
       </ArticleContainer>
     </Container>
   );

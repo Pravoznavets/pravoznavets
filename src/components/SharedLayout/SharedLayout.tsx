@@ -4,6 +4,7 @@ import Header from "components/Header";
 import AppRoutes from "routes/AppRoutes";
 import Modal from "components/Modal";
 import { Main } from "./SharedLayout.styled";
+import CallButton from "components/CallButton";
 
 const SharedLayout: FC = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -29,6 +30,7 @@ const SharedLayout: FC = () => {
       </Main>
       <Footer />
       <Modal toggleModal={toggleModal} open={isModalOpen} />
+      <CallButton />
     </>
   );
 };

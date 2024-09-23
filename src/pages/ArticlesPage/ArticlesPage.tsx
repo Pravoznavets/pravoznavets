@@ -1,12 +1,12 @@
 import Container from "components/Container";
 import PlaceHolder from "assets/images/bussines_1280_853-2x.jpg";
 import Article from "components/Article";
-import { ArticleItem } from "./ArticlesPage.styled";
+import { ArticleItem, ArticlesList } from "./ArticlesPage.styled";
 
 const ArticlesPage = () => {
   return (
     <Container>
-      <ul>
+      <ArticlesList>
         <ArticleItem>
           <Article
             title="Правила виписування та реквізити електронного рецепту"
@@ -122,7 +122,7 @@ const ArticlesPage = () => {
         </ArticleItem>
         <ArticleItem>
           <Article
-            title="Правове регулювання атестаціх працівників"
+            title="Правове регулювання атестації працівників"
             description="Стаття підготовлена на основі аналізу трудового законодавства 
             України та доктринальних теорій. У ній висвітлюються поняття атестації 
             працівників, принципи правового регулювання, критерії відмежування атестації 
@@ -202,7 +202,7 @@ const ArticlesPage = () => {
             link="license-for-alcohol"
           />
         </ArticleItem>
-      </ul>
+      </ArticlesList>
     </Container>
   );
 };

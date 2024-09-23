@@ -25,8 +25,8 @@ export const ArticlePointTitle = styled.h3`
 
 export const ArticleText = styled.p`
   font-size: 20px;
-  line-height: 1.71;
-
+  line-height: 1.44;
+  font-family: "Roboto", sans-serif;
   text-indent: 30px;
   margin-bottom: 16px;
   text-align: justify;
@@ -40,16 +40,19 @@ export const ArticleListItem = styled.li`
   line-height: 1.71;
   font-size: 20px;
 
-  padding: 4px 0;
-  margin-left: 48px;
-
-  font-style: italic;
+  margin-left: 20px;
 
   &::marker {
-    content: "🖋️   ";
-    color: gold;
+    content: "— ";
+    color: black;
     font-size: 20px;
   }
+`;
+export const ArticleNumberedItem = styled.li`
+  line-height: 1.71;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 20px;
 `;
 
 export const LiteratureHeader = styled.h4`
@@ -70,6 +73,6 @@ export const LiteratureList = styled.ol`
 export const LiteratureItem = styled.li`
   line-height: 1.18;
   font-size: 18px;
-
+  font-family: "Open Sans", sans-serif;
   padding: 4px 0;
 `;

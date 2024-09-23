@@ -2,6 +2,7 @@ import Container from "components/Container";
 import {
   ArticleList,
   ArticleListItem,
+  ArticleNumberedItem,
   ArticleText,
   ArticleTitle,
 } from "../Articles.styled";
@@ -47,15 +48,15 @@ const FamiliarizingEmployeesWithDocuments = () => {
           Обов’язкові реквізити електронного документа — такі самі, як і в
           паперового:
         </ArticleText>
-        <ArticleListItem>- найменування юридичної особи,</ArticleListItem>
+        <ArticleListItem>найменування юридичної особи,</ArticleListItem>
         <ArticleListItem>
-          - назва виду документа (не зазначають на листах),{" "}
+          назва виду документа (не зазначають на листах),{" "}
         </ArticleListItem>
-        <ArticleListItem>- дата документа, </ArticleListItem>
-        <ArticleListItem>- реєстраційний індекс документа,</ArticleListItem>
-        <ArticleListItem>- заголовок до тексту документа,</ArticleListItem>
-        <ArticleListItem>- текст документа, </ArticleListItem>
-        <ArticleListItem>- підпис.</ArticleListItem>
+        <ArticleListItem>дата документа, </ArticleListItem>
+        <ArticleListItem>реєстраційний індекс документа,</ArticleListItem>
+        <ArticleListItem>заголовок до тексту документа,</ArticleListItem>
+        <ArticleListItem>текст документа, </ArticleListItem>
+        <ArticleListItem>підпис.</ArticleListItem>
       </ArticleList>
       <ArticleText>
         <i>Відповідно до ст. 6 Закону № 851</i> створення електронного документа
@@ -86,15 +87,15 @@ const FamiliarizingEmployeesWithDocuments = () => {
             організації процедури підписання кадрових документів КЕП:
           </u>
         </ArticleText>
-        <ArticleListItem>
+        <ArticleNumberedItem>
           1. Директору видати розпорядження, яким встановити, що з метою
           оптимізації процесу обміну кадровими документами та ознайомлення з
           ними, усім працівникам отримати КЕП у акредитованому центрі
           сертифікації ключів до ____ року, на відділ управління персоналом
           покласти обов’язок надавати працівникам методичну допомогу в отриманні
           КЕП.
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           2. Отримати заяву від працівника такого змісту:
           <ArticleText>
             «Прошу надсилати електронні документи для ознайомлення з ними на
@@ -109,8 +110,8 @@ const FamiliarizingEmployeesWithDocuments = () => {
             якщо документ надійшов у позаробочий час — упродовж години з початку
             наступного робочого дня».
           </ArticleText>
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           3. Видати наказ про те, що компанія ознайомлює відповідних працівників
           засобами електронного зв’язку із зазначенням електронної пошти такого
           працівника, а також обов’язково вказати, що працівник зобов’язується
@@ -118,7 +119,7 @@ const FamiliarizingEmployeesWithDocuments = () => {
           підпису упродовж робочого дня, часові межі якого визначені правилами
           внутрішнього трудового розпорядку Товариства, а якщо документ надійшов
           у позаробочий час — упродовж години з початку наступного робочого дня.
-        </ArticleListItem>
+        </ArticleNumberedItem>
       </ArticleList>
     </Container>
   );

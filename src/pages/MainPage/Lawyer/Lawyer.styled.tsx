@@ -13,7 +13,6 @@ export const LawyerDescriptionThumb = styled.div`
 
 export const LawyerText = styled.p`
   font-size: 18px;
-  font-style: italic;
   line-height: 1.14;
 
   text-indent: 30px;
@@ -60,14 +59,12 @@ export const LawyerSection = styled.section`
   }
 
   &:hover ${LawyerImage} {
-    transform: scale(1.1);
-
     @media ${selectTablet} {
       transform: scale(1.04);
     }
 
     @media ${selectDesktop} {
-      transform: scale(1.12);
+      transform: scale(1.1);
     }
   }
 `;

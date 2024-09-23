@@ -22,7 +22,11 @@ const Article: FC<ArticleProps> = ({ image, title, description, link }) => {
         <ArticteTitle>{title}</ArticteTitle>
         <ArticleDescription> {description}</ArticleDescription>
       </div>
-      <LearnMoreLink to={link}>Дізнатися більше</LearnMoreLink>
+      <LearnMoreLink to={link}>
+        <span>Дізнатися більше</span>
+        <span></span>
+        <span>До статті</span>
+      </LearnMoreLink>
     </StyledArticle>
   );
 };

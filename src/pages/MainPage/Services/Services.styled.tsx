@@ -61,7 +61,6 @@ export const ServiceText = styled.p`
   color: ${({ theme }) => theme.color.primaryTextColor};
   font-size: 24px;
   line-height: 1.16;
-  font-style: italic;
 
   &::first-line {
     margin-left: 20px;

@@ -1,7 +1,7 @@
 import Container from "components/Container";
 import {
   ArticleList,
-  ArticleListItem,
+  ArticleNumberedItem,
   ArticleParagraphTitle,
   ArticlePointTitle,
   ArticleText,
@@ -54,68 +54,72 @@ const ElectronicPrescription = () => {
         Реквізитами електронного рецепту по Формі 1 є:
       </ArticlePointTitle>
       <ArticleList>
-        <ArticleListItem>
-          1. Прізвище, ініціали та вік хворого;{" "}
-        </ArticleListItem>
-        <ArticleListItem>
+        <ArticleNumberedItem>
+          1. Прізвище, ініціали та вік хворого;
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           2. Номер карти амбулаторного чи стаціонарного хворого;
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           3. Назва та кількість виписаних лікарських засобів (Міжнародна
           непатентована назва ліків; дозування; лікарська форма; кількість доз;
           спосіб вживання ліків);
-        </ArticleListItem>
-        <ArticleListItem>4. Номер рецепту та дата його видачі;</ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
+          4. Номер рецепту та дата його видачі;
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           5. Найменування закладу охорони здоров’я або ПІП ФОП;
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           6. Адреса закладу охорони здоров’я або ФОП;
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           7. Код ЄДРПОУ/ Реєстраційний номер облікової картки платника податків;
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           8. Реквізити ліцензії на медичну практику або рішення органу
           ліцензування;
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           9. Джерело фінансування, а також інформацію щодо погашення вартості
           ліків: за повну вартість, безоплатно, з доплатою;
-        </ArticleListItem>
-        <ArticleListItem>10. Термін дії рецепту;</ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>10. Термін дії рецепту;</ArticleNumberedItem>
+        <ArticleNumberedItem>
           11. Прізвище та ініціали лікаря, КЕП лікаря;
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           12. № лікарської форми індивідуального виготовлення (за необхідності).
-        </ArticleListItem>
+        </ArticleNumberedItem>
       </ArticleList>
       <ArticlePointTitle>
         Реквізитами електронного рецепту по Формі 3 є:
       </ArticlePointTitle>
       <ArticleList>
-        <ArticleListItem>1. Серія, № та дата;</ArticleListItem>
-        <ArticleListItem>2. Прізвище, ініціали та вік хворого;</ArticleListItem>
-        <ArticleListItem>
+        <ArticleNumberedItem>1. Серія, № та дата;</ArticleNumberedItem>
+        <ArticleNumberedItem>
+          2. Прізвище, ініціали та вік хворого;
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           3. Номер карти амбулаторного чи стаціонарного хворого;
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           4. Найменування закладу охорони здоров’я або ПІП ФОП;
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           5. Адреса закладу охорони здоров’я або ФОП;
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           6. Код ЄДРПОУ/ Реєстраційний номер облікової картки платника податків;
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           7. Реквізити ліцензії на медичну практику або рішення органу
           ліцензування.
-        </ArticleListItem>
-        <ArticleListItem>
+        </ArticleNumberedItem>
+        <ArticleNumberedItem>
           8. Прізвище та ініціали лікаря, КЕП лікаря.
-        </ArticleListItem>
+        </ArticleNumberedItem>
       </ArticleList>
     </Container>
   );

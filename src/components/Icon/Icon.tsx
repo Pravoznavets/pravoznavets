@@ -9,7 +9,12 @@ type IconProps = {
 
 const Icon: FC<IconProps> = ({ width, height, iconName }) => {
   return (
-    <svg width={width || "24px"} height={height || "24px"}>
+    <svg
+      width={width || "24px"}
+      height={height || "24px"}
+      preserveAspectRatio="xMidYMid meet"
+      style={{ display: "block" }}
+    >
       <use href={`${icons}#${iconName}`} />
     </svg>
   );

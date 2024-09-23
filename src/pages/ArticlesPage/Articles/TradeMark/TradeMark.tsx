@@ -4,6 +4,7 @@ import {
   ArticleContainer,
   ArticleList,
   ArticleListItem,
+  ArticleNumberedItem,
   ArticleParagraphTitle,
   ArticlePointTitle,
   ArticleText,
@@ -146,43 +147,43 @@ const TradeMark: FC = () => {
             товарного знака, розглянемо етапи її проведення патентною
             організацією.
           </ArticleText>
-          <ArticleListItem>
+          <ArticleNumberedItem>
             1. Системно-структурний аналіз торгової марки. Цей аналіз є
             первинним. Він перевіряє регістратора торгової марки на
             відповідність його інтелектуальної власності абсолютним критеріям
             охороноспроможності.
-          </ArticleListItem>
-          <ArticleListItem>
+          </ArticleNumberedItem>
+          <ArticleNumberedItem>
             2. Процедура класифікації торгової марки згідно з міжнародною
             класифікацією товарів і послуг.
-          </ArticleListItem>
-          <ArticleListItem>
+          </ArticleNumberedItem>
+          <ArticleNumberedItem>
             3. Прийняття довіреності патентним повіреним від заявника торгової
             марки (товарного знака).
-          </ArticleListItem>
-          <ArticleListItem>
+          </ArticleNumberedItem>
+          <ArticleNumberedItem>
             4. Прийняття офіційної довіреності патентним повіреним від заявника,
             який бажає зареєструвати свій товарний знак.
-          </ArticleListItem>
-          <ArticleListItem>
+          </ArticleNumberedItem>
+          <ArticleNumberedItem>
             5. Процес складання і оформлення матеріалів заявки на видачу
             свідоцтва України на знак для реалізації товарів і надання різних
             послуг.
-          </ArticleListItem>
-          <ArticleListItem>
+          </ArticleNumberedItem>
+          <ArticleNumberedItem>
             6. Процедура направлення матеріалів заявки в Державну патентну
             експертизу з метою подальшої передачі звітної документації
             особі-заявнику.
-          </ArticleListItem>
-          <ArticleListItem>
+          </ArticleNumberedItem>
+          <ArticleNumberedItem>
             7. Видача заявнику пріоритетного документа згідно із заявкою на
             реєстрацію товарного знака (в документі вказується номер заявки,
             дата пріоритету).
-          </ArticleListItem>
-          <ArticleListItem>
+          </ArticleNumberedItem>
+          <ArticleNumberedItem>
             8. Видача рішення про надання заявнику охоронного свідоцтва України
             на знак для товарів і послуг.
-          </ArticleListItem>
+          </ArticleNumberedItem>
         </ArticleList>
         <ArticleText>
           Після закінчення заздалегідь обумовленого терміну заявник отримує

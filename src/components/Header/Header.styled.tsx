@@ -22,18 +22,22 @@ export const HeaderContainer = styled.header`
 `;
 
 export const Logo = styled.div`
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: ${({ theme }) => theme.color.primaryTextColor};
   font-size: ${({ theme }) => theme.fontSize.desktop.logo};
 
   @media ${selectDesktop} {
-    margin-right: 93px;
+    padding: 24px 0;
   }
 `;
 
 export const LogoLink = styled(NavLink)`
   color: ${({ theme }) => theme.color.primaryTextColor};
+
+  @media ${selectDesktop} {
+    margin-right: 93px;
+  }
 `;
 
 export const LogoAccent = styled.span`

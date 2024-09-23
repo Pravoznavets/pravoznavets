@@ -20,6 +20,8 @@ export const ServiceDescription = styled.div`
   top: 100%;
   left: 0;
 
+  overflow: hidden;
+
   width: 100%;
   height: 100%;
   background-color: ${({ theme }) => theme.color.accentBackground};
@@ -32,13 +34,14 @@ export const ServiceHiddenText = styled.p`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: calc(100% - 48px);
-  line-height: 1.56;
+  width: calc(100% - 12px);
+  line-height: 1.1;
   color: white;
   font-size: ${({ theme }) => theme.fontSize.mobile.primary};
 
   @media ${selectDesktop} {
-    line-height: 1.17;
+    width: calc(100% - 48px);
+    line-height: 1.1;
     font-size: ${({ theme }) => theme.fontSize.mobile.secondary};
   }
 `;
