@@ -19,9 +19,7 @@ type Theme = {
 
 const color: Record<Color, string> = {
   accentColor: "rgba(203,171,97)",
-  // accentColor: "rgba(33,150,243)",
   accentBackground: "rgba(203,171,97,.9)",
-  // accentBackground: "rgba(33,150,243,.9)",
   primaryTextColor: "#212121",
   secondaryTextColor: "#757575",
   primaryBackgroundColor: "#2f303a",

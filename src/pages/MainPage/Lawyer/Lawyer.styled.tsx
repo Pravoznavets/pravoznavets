@@ -19,6 +19,8 @@ export const LawyerText = styled.p`
   margin-bottom: 12px;
   text-align: justify;
 
+  color: ${({ theme }) => theme.color.primaryTextColor};
+
   @media ${selectDesktop} {
     font-size: 20px;
   }
@@ -26,7 +28,7 @@ export const LawyerText = styled.p`
 
 export const LawyerImage = styled.img`
   border-radius: 20px;
-  transition: transform 0.5s ease-in-out;
+  // transition: transform 0.5s ease-in-out;
 `;
 
 export const PhotoThumb = styled.div`
@@ -58,13 +60,13 @@ export const LawyerSection = styled.section`
     padding-bottom: 94px;
   }
 
-  &:hover ${LawyerImage} {
-    @media ${selectTablet} {
-      transform: scale(1.04);
-    }
+  // &:hover ${LawyerImage} {
+  //   @media ${selectTablet} {
+  //     transform: scale(1.04);
+  //   }
 
-    @media ${selectDesktop} {
-      transform: scale(1.1);
-    }
-  }
+  //   @media ${selectDesktop} {
+  //     transform: scale(1.1);
+  //   }
+  // }
 `;

@@ -54,7 +54,7 @@ const Header: React.FC<Props> = ({ toggleModal, open }) => {
                 </ContactLink>
               </ContactItem>
               <ContactItem>
-                <ContactLink href="mailto:info@pravoznavets.kiev.ua">
+                <ContactLink href="mailto:shulgaoksana88@gmail.com">
                   <Icon iconName="icon-mail" />
                   <span>shulgaoksana88@gmail.com</span>
                 </ContactLink>

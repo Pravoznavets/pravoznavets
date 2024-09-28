@@ -10,6 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeSpeed;
     overflow-x: hidden;
+    color: ${({ theme }) => theme.color.primaryTextColor};
 }
 
 code {

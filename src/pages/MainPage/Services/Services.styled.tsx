@@ -5,6 +5,8 @@ export const ServicesContainer = styled.section`
   padding-top: 48px;
   padding-bottom: 48px;
 
+  color: ${({ theme }) => theme.color.primaryTextColor};
+
   background-color: rgba(203, 171, 97, 0.15);
 
   @media ${selectDesktop} {
@@ -58,8 +60,7 @@ export const Img = styled.img`
 
 export const ServiceText = styled.p`
   width: 100%;
-  color: ${({ theme }) => theme.color.primaryTextColor};
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.16;
 
   &::first-line {
@@ -68,5 +69,6 @@ export const ServiceText = styled.p`
 
   @media ${selectDesktop} {
     width: 50%;
+    font-size: 20px;
   }
 `;

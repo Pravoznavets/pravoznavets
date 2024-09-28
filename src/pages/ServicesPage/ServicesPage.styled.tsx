@@ -48,7 +48,7 @@ export const ServiceHiddenText = styled.p`
 
 export const ServiceListItem = styled.li`
   width: 100%;
-  border: 1px solid ${({ theme }) => theme.color.secondaryBackgroundColor};
+  border: 1px solid ${({ theme }) => theme.color.secondaryTextColor};
   transition: all ${({ theme }) => theme.transitionHover};
 
   &:hover,

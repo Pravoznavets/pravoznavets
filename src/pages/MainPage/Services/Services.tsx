@@ -13,11 +13,6 @@ import DeskImg1x from "assets/images/MainPage/woodendesk-1x.jpg";
 import DeskImg2x from "assets/images/MainPage/woodendesk-2x.jpg";
 import LampImg1x from "assets/images/MainPage/lamp-1x.jpg";
 import LampImg2x from "assets/images/MainPage/lamp-2x.jpg";
-// import OldCityImg1x from "assets/images/MainPage/oldcity-1x.jpg";
-// import OldCityImg2x from "assets/images/MainPage/oldcity-2x.jpg";
-// import DeskInLibraryImg1x from "assets/images/MainPage/deskinlibrary1x.png";
-// import DeskInLibraryImg2x from "assets/images/MainPage/deskinlibrary2x.png";
-// import ceo1 from "assets/images/CEO/ceo1.jpg";
 
 const Services: FC = () => {
   return (

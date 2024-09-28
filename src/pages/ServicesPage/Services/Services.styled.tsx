@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const ServiceContainer = styled.div`
   padding: 60px 30px;
+
+  color: ${({ theme }) => theme.color.primaryTextColor};
 `;
 
 export const ServiceTitle = styled.h1`
@@ -32,7 +34,7 @@ export const ServiceListItem = styled.li`
 
   &::marker {
     content: "— ";
-    color: black;
+    color: ${({ theme }) => theme.color.primaryTextColor};
     font-size: 20px;
   }
 `;

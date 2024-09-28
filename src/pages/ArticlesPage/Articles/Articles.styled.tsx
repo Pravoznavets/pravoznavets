@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ArticleContainer = styled.div`
   padding: 60px 30px;
+  color: ${({ theme }) => theme.color.primaryTextColor};
 `;
 
 export const ArticleTitle = styled.h1`
@@ -44,7 +45,7 @@ export const ArticleListItem = styled.li`
 
   &::marker {
     content: "— ";
-    color: black;
+    color: ${({ theme }) => theme.color.primaryTextColor};
     font-size: 20px;
   }
 `;

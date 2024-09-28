@@ -5,6 +5,8 @@ export const ReferenceListSection = styled.section`
   padding-top: 48px;
   padding-bottom: 48px;
 
+  color: ${({ theme }) => theme.color.primaryTextColor};
+
   @media ${selectDesktop} {
     padding-top: 94px;
     padding-bottom: 94px;
