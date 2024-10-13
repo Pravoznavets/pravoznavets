@@ -17,7 +17,9 @@ type ArticleProps = {
 const Article: FC<ArticleProps> = ({ image, title, description, link }) => {
   return (
     <StyledArticle>
-      <ArticleImage src={image} alt="Lawyer" />
+      <div>
+        <ArticleImage src={image} alt="Lawyer" />
+      </div>
       <div>
         <ArticteTitle>{title}</ArticteTitle>
         <ArticleDescription> {description}</ArticleDescription>

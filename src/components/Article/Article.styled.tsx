@@ -38,7 +38,7 @@ export const ArticleImage = styled.img`
 
   @media ${selectDesktop} {
     width: 480px;
-    height: auto;
+    height: 320px;
   }
 `;
 

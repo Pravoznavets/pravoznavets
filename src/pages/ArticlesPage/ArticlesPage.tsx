@@ -1,6 +1,23 @@
 import Container from "components/Container";
-import PlaceHolder from "assets/images/bussines_1280_853-2x.jpg";
 import Article from "components/Article";
+import PlaceHolder from "assets/images/ArticlesPage/bussines_960_720_1x.jpg";
+import AlcoholLicenseImg from "assets/images/ArticlesPage/alcohol-license.jpg";
+import AutoImg from "assets/images/ArticlesPage/auto.jpg";
+import BrandImg from "assets/images/ArticlesPage/brand.jpg";
+import CivilProtectionImg from "assets/images/ArticlesPage/civil-protection.jpg";
+import CopyRightImg from "assets/images/ArticlesPage/copyright-trademark.jpg";
+import EmployeeCertificationImg from "assets/images/ArticlesPage/employee-certification.jpg";
+import EmployeeDismissalImg from "assets/images/ArticlesPage/employee-dismissal.jpg";
+import HandsImg from "assets/images/ArticlesPage/hands.jpg";
+import MedicalProductPriceImg from "assets/images/ArticlesPage/medical-product-price.jpg";
+import MedicalProductProductionImg from "assets/images/ArticlesPage/medicla-product-production.jpg";
+import PreinvestigationImg from "assets/images/ArticlesPage/preinvestigation.jpg";
+import PrinciplesLawRegulationImg from "assets/images/ArticlesPage/principles-of-law-regulation.jpg";
+import RawTaxesImg from "assets/images/ArticlesPage/raw-taxes.jpg";
+import ReturnMoneyImg from "assets/images/ArticlesPage/return-money.jpg";
+import TestamentImg from "assets/images/ArticlesPage/testament.jpg";
+import TradeMarkImg from "assets/images/ArticlesPage/trademark.jpg";
+import ElectronicPrescriptionImg from "assets/images/ArticlesPage/e-recipe.jpg";
 import { ArticleItem, ArticlesList } from "./ArticlesPage.styled";
 
 const ArticlesPage = () => {
@@ -15,7 +32,7 @@ const ArticlesPage = () => {
             Міністерства охорони здоров'я, електронні рецепти замінюють 
             паперові рецепти і мають низку переваг, таких як швидке оброблення 
             та зменшення кількості помилок."
-            image={PlaceHolder}
+            image={ElectronicPrescriptionImg}
             link="electronic-prescroption"
           />
         </ArticleItem>
@@ -26,7 +43,7 @@ const ArticlesPage = () => {
             служба управління персоналу при звільненні працівника. Стаття також 
             наголошує на важливості дотримання законодавчих норм та внутрішніх 
             процедур при звільненні працівника."
-            image={PlaceHolder}
+            image={EmployeeDismissalImg}
             link="employee-dismissal"
           />
         </ArticleItem>
@@ -36,7 +53,7 @@ const ArticlesPage = () => {
             description="У цій статті йдеться про необхідність проходження обов'язкового 
             технічного контролю для службового автотранспорту підприємства. Аналізуються 
             українські закони та постанови, що регулюють це питання."
-            image={PlaceHolder}
+            image={AutoImg}
             link="enterprise-auto-transport"
           />
         </ArticleItem>
@@ -46,7 +63,7 @@ const ArticlesPage = () => {
             description="У цій статті йдеться про обов’язки особи, відповідальної 
             за цивільний захист на підприємстві. Ця особа має забезпечити безпеку 
             працівників, майна та території підприємства у випадку надзвичайних ситуацій."
-            image={PlaceHolder}
+            image={CivilProtectionImg}
             link="enterprise-civil-protection"
           />
         </ArticleItem>
@@ -68,17 +85,17 @@ const ArticlesPage = () => {
             лікарських засобів в Україні, зокрема відповідальність виробників за 
             відповідність їх продукції реєстраційним матеріалам та потенційні 
             штрафи за порушення законодавства."
-            image={PlaceHolder}
+            image={MedicalProductProductionImg}
             link="medical-product-production"
           />
         </ArticleItem>
         <ArticleItem>
           <Article
-            title="Формування ціни на лікарський засоби виробником"
+            title="Формування ціни на лікарські засоби виробником"
             description="У цій статті йдеться про обмеження на вільне формування 
             цін виробниками лікарських засобів в Україні, які підлягають державному 
             регулюванню."
-            image={PlaceHolder}
+            image={MedicalProductPriceImg}
             link="price-formation"
           />
         </ArticleItem>
@@ -89,7 +106,7 @@ const ArticlesPage = () => {
             переробки давальницької сировини в Україні. Стаття детально розглядає 
             податкові наслідки таких операцій, зокрема щодо податку на прибуток 
             та податку на додану вартість (ПДВ)."
-            image={PlaceHolder}
+            image={RawTaxesImg}
             link="taxation-of-operations"
           />
         </ArticleItem>
@@ -103,7 +120,7 @@ const ArticlesPage = () => {
                 надаються одним суб'єктом господарської діяльності для іншого.
                 Для отримання торговельної марки зазвичай використовують цифри,
                 літери, слова, різні логотипи та малюнки."
-            image={PlaceHolder}
+            image={CopyRightImg}
             link="company-name-patent"
           />
         </ArticleItem>
@@ -116,7 +133,7 @@ const ArticlesPage = () => {
             певним товаром після її офіційної реєстрації. Тільки власник законно
             зареєстрованого знаку може звертатися у разі необхідності за захистом свого
             права на використання конкретного зображення.`}
-            image={PlaceHolder}
+            image={TradeMarkImg}
             link="trademark"
           />
         </ArticleItem>
@@ -129,7 +146,7 @@ const ArticlesPage = () => {
             працівників від схожих правових явищ, а також наводиться перелік 
             нормативно-правових актів, які врегульовують відносини з питань атестації 
             працівників."
-            image={PlaceHolder}
+            image={EmployeeCertificationImg}
             link="employee-certification"
           />
         </ArticleItem>
@@ -141,7 +158,7 @@ const ArticlesPage = () => {
             і серйозної причини для звернення до організації захисту прав споживачів, здається, немає. Ти 
             йдеш в магазин із твердим наміром повернути свої придбання і отримати гроші. Продавець 
             пропонує тобі замінити покупки на такі ж, але без дефектів."
-            image={PlaceHolder}
+            image={ReturnMoneyImg}
             link="return-money"
           />
         </ArticleItem>
@@ -150,7 +167,7 @@ const ArticlesPage = () => {
             title="Принципи правового регулювання атестації як принципи правового регулювання праці"
             description=" У статті проаналізовано та роз’яснено зміст основних принципів правового регулювання 
             атестації працівників, викладено особливості їх співвідношення з принципами правового регулювання праці. "
-            image={PlaceHolder}
+            image={PrinciplesLawRegulationImg}
             link="polrocapolrol"
           />
         </ArticleItem>
@@ -159,7 +176,7 @@ const ArticlesPage = () => {
             title="Досудове розслідування"
             description="Стаття підготовлена на основі кримінально-процесуального законодавства України.
             У ній висвітлюються загальні положення досудового слідства та дізнання. Для студентів, аспірантів і викладачів вищих навчальних закладів."
-            image={PlaceHolder}
+            image={PreinvestigationImg}
             link="pre-trial-investigation"
           />
         </ArticleItem>
@@ -168,7 +185,7 @@ const ArticlesPage = () => {
             title="До питання правової природи заповіту"
             description="Стаття підготовлена на основі цивільного законодавства, зокрема Цивільного кодексу України та доктрини. 
             У ній висвітлено загальні положення про майно. Значна увага приділяється поняттю спадщини як об`єкту заповіту та особливостям спадкового правонаступництва."
-            image={PlaceHolder}
+            image={TestamentImg}
             link="covenant"
           />
         </ArticleItem>
@@ -178,7 +195,7 @@ const ArticlesPage = () => {
             description="Стаття підготовлена на основі цивільного та господарського законодавства України. 
             У ній висвітлюються загальні положення договору поставки та договору купівлі-продажу. 
             Значна увага приділяється визначенню критеріїв розмежування цих договорів."
-            image={PlaceHolder}
+            image={HandsImg}
             link="purchase-sale-agreement"
           />
         </ArticleItem>
@@ -188,7 +205,7 @@ const ArticlesPage = () => {
             description="Сьогодні реєстрація авторських прав українців є тривалим процесом 
             для отримання охоронного документа, тобто свідоцтва про реєстрацію права на власний твір, 
             за допомогою державної реєстрації в головному Держдепартаменті України."
-            image={PlaceHolder}
+            image={BrandImg}
             link="copyright-registration"
           />
         </ArticleItem>
@@ -198,7 +215,7 @@ const ArticlesPage = () => {
             description="Ліцензування алкогольної діяльності лежить у компетенції Державної фіскальної 
             служби України. Для отримання ліцензії на алкоголь суб'єкт господарювання повинен надати 
             комплект документів."
-            image={PlaceHolder}
+            image={AlcoholLicenseImg}
             link="license-for-alcohol"
           />
         </ArticleItem>
