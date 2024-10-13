@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/pravoznavets/static/css/main.7cda0caf.css",
-    "main.js": "/pravoznavets/static/js/main.421d6b15.js",
+    "main.js": "/pravoznavets/static/js/main.fe38acf6.js",
     "static/js/33.d984d7c9.chunk.js": "/pravoznavets/static/js/33.d984d7c9.chunk.js",
-    "static/js/548.a9365cb3.chunk.js": "/pravoznavets/static/js/548.a9365cb3.chunk.js",
+    "static/js/810.131a1392.chunk.js": "/pravoznavets/static/js/810.131a1392.chunk.js",
     "static/js/454.a6779200.chunk.js": "/pravoznavets/static/js/454.a6779200.chunk.js",
     "static/js/66.1e9a11d0.chunk.js": "/pravoznavets/static/js/66.1e9a11d0.chunk.js",
     "static/js/87.12258839.chunk.js": "/pravoznavets/static/js/87.12258839.chunk.js",
@@ -34,9 +34,9 @@
     "static/js/417.e05beab4.chunk.js": "/pravoznavets/static/js/417.e05beab4.chunk.js",
     "static/js/787.5d6bd44e.chunk.js": "/pravoznavets/static/js/787.5d6bd44e.chunk.js",
     "static/media/404.jpg": "/pravoznavets/static/media/404.6ff348916d660c7dfd20.jpg",
-    "static/media/bussines_1280_853-2x.jpg": "/pravoznavets/static/media/bussines_1280_853-2x.32f7ba7ef39e3d7dfd4a.jpg",
     "static/media/CEO_Pravoznavets_desk.jpg": "/pravoznavets/static/media/CEO_Pravoznavets_desk.23e6883bbc77bb50e2d5.jpg",
     "static/media/loader.gif": "/pravoznavets/static/media/loader.a2b64c0ba34487591d3b.gif",
+    "static/media/bussines_960_720_1x.jpg": "/pravoznavets/static/media/bussines_960_720_1x.ffe513318005673474b6.jpg",
     "static/media/service3.jpg": "/pravoznavets/static/media/service3.40e1818b272bc3daca32.jpg",
     "static/media/lamp-2x.jpg": "/pravoznavets/static/media/lamp-2x.e79429e8cd8aa8e7bf94.jpg",
     "static/media/service5.jpg": "/pravoznavets/static/media/service5.4ae3f00c01cb49a0acec.jpg",
@@ -45,6 +45,7 @@
     "static/media/service1.jpg": "/pravoznavets/static/media/service1.89255111112e0eb50617.jpg",
     "static/media/pravoznavets-hero.webp": "/pravoznavets/static/media/pravoznavets-hero.c7de2fd7bc2126974af7.webp",
     "static/media/service2.jpg": "/pravoznavets/static/media/service2.977832f8ff4aee6a5420.jpg",
+    "static/media/medical-product-price.jpg": "/pravoznavets/static/media/medical-product-price.51918ef8a280fb8bcce3.jpg",
     "static/media/service7.jpg": "/pravoznavets/static/media/service7.33fdc0d6eca8c730d1fd.jpg",
     "static/media/CEO_Pravoznavets_tab.jpg": "/pravoznavets/static/media/CEO_Pravoznavets_tab.c56d0a383e8609d7a741.jpg",
     "static/media/GreenWhale.png": "/pravoznavets/static/media/GreenWhale.2732e18f71e993a04f4e.png",
@@ -56,9 +57,9 @@
     "static/media/sprite.svg": "/pravoznavets/static/media/sprite.433b6e1ca9ebf793cc0fc10a5232f366.svg",
     "index.html": "/pravoznavets/index.html",
     "main.7cda0caf.css.map": "/pravoznavets/static/css/main.7cda0caf.css.map",
-    "main.421d6b15.js.map": "/pravoznavets/static/js/main.421d6b15.js.map",
+    "main.fe38acf6.js.map": "/pravoznavets/static/js/main.fe38acf6.js.map",
     "33.d984d7c9.chunk.js.map": "/pravoznavets/static/js/33.d984d7c9.chunk.js.map",
-    "548.a9365cb3.chunk.js.map": "/pravoznavets/static/js/548.a9365cb3.chunk.js.map",
+    "810.131a1392.chunk.js.map": "/pravoznavets/static/js/810.131a1392.chunk.js.map",
     "454.a6779200.chunk.js.map": "/pravoznavets/static/js/454.a6779200.chunk.js.map",
     "66.1e9a11d0.chunk.js.map": "/pravoznavets/static/js/66.1e9a11d0.chunk.js.map",
     "87.12258839.chunk.js.map": "/pravoznavets/static/js/87.12258839.chunk.js.map",
@@ -91,6 +92,6 @@
   },
   "entrypoints": [
     "static/css/main.7cda0caf.css",
-    "static/js/main.421d6b15.js"
+    "static/js/main.fe38acf6.js"
   ]
 }
