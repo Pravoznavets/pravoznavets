@@ -1,23 +1,23 @@
 import Container from "components/Container";
 import Article from "components/Article";
 import PlaceHolder from "assets/images/ArticlesPage/bussines_960_720_1x.jpg";
-import AlcoholLicenseImg from "assets/images/ArticlesPage/alcohol-license.jpg";
-import AutoImg from "assets/images/ArticlesPage/auto.jpg";
-import BrandImg from "assets/images/ArticlesPage/brand.jpg";
-import CivilProtectionImg from "assets/images/ArticlesPage/civil-protection.jpg";
-import CopyRightImg from "assets/images/ArticlesPage/copyright-trademark.jpg";
-import EmployeeCertificationImg from "assets/images/ArticlesPage/employee-certification.jpg";
-import EmployeeDismissalImg from "assets/images/ArticlesPage/employee-dismissal.jpg";
-import HandsImg from "assets/images/ArticlesPage/hands.jpg";
+import AlcoholLicenseImg from "assets/images/ArticlesPage/liquor-licensing-1x.jpg";
+import AutoImg from "assets/images/ArticlesPage/technical_control-1x.jpg";
+import BrandImg from "assets/images/ArticlesPage/lawyer-2-1x.jpg";
+import CivilProtectionImg from "assets/images/ArticlesPage/lawyer-7-1x.jpg";
+import CopyRightImg from "assets/images/ArticlesPage/lawyer-6-1x.jpg";
+import EmployeeCertificationImg from "assets/images/ArticlesPage/employee-certification-1x.jpg";
+import EmployeeDismissalImg from "assets/images/ArticlesPage/personal-1x.jpg";
+import RelationshipImg from "assets/images/ArticlesPage/relationship-1x.jpg";
 import MedicalProductPriceImg from "assets/images/ArticlesPage/medical-product-price.jpg";
-import MedicalProductProductionImg from "assets/images/ArticlesPage/medicla-product-production.jpg";
-import PreinvestigationImg from "assets/images/ArticlesPage/preinvestigation.jpg";
-import PrinciplesLawRegulationImg from "assets/images/ArticlesPage/principles-of-law-regulation.jpg";
-import RawTaxesImg from "assets/images/ArticlesPage/raw-taxes.jpg";
-import ReturnMoneyImg from "assets/images/ArticlesPage/return-money.jpg";
-import TestamentImg from "assets/images/ArticlesPage/testament.jpg";
-import TradeMarkImg from "assets/images/ArticlesPage/trademark.jpg";
-import ElectronicPrescriptionImg from "assets/images/ArticlesPage/e-recipe.jpg";
+import MedicalProductProductionImg from "assets/images/ArticlesPage/laboratory-1x.jpg";
+import PreinvestigationImg from "assets/images/ArticlesPage/pre-trial-1x.jpg";
+import PrinciplesLawRegulationImg from "assets/images/ArticlesPage/principles-of-legal-1x.jpg";
+import RawTaxesImg from "assets/images/ArticlesPage/lawyer-4-1x.jpg";
+import ReturnMoneyImg from "assets/images/ArticlesPage/return-money-1x.jpg";
+import TestamentImg from "assets/images/ArticlesPage/legal-nature-of-the-will_1x.jpg";
+import TradeMarkImg from "assets/images/ArticlesPage/copyright-registration-1x.jpg";
+import ElectronicPrescriptionImg from "assets/images/ArticlesPage/rules-for-prescribing-1x.jpg";
 import { ArticleItem, ArticlesList } from "./ArticlesPage.styled";
 
 const ArticlesPage = () => {
@@ -195,7 +195,7 @@ const ArticlesPage = () => {
             description="Стаття підготовлена на основі цивільного та господарського законодавства України. 
             У ній висвітлюються загальні положення договору поставки та договору купівлі-продажу. 
             Значна увага приділяється визначенню критеріїв розмежування цих договорів."
-            image={HandsImg}
+            image={RelationshipImg}
             link="purchase-sale-agreement"
           />
         </ArticleItem>

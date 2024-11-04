@@ -63,7 +63,7 @@ export const ArticleDescription = styled.p`
   padding-bottom: 20px;
 
   @media ${selectDesktop} {
-    font-size: 24px;
+    font-size: 20px;
   }
 `;
 
