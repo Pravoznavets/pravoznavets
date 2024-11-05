@@ -7,7 +7,6 @@ import {
   References,
   RefrenceListTitle,
 } from "./ReferenceList.styled";
-import BeefImg from "assets/images/MainPage/refences/beef.jpg";
 import GWImg from "assets/images/MainPage/refences/GreenWhale.png";
 import GYImg from "assets/images/MainPage/refences/greenyard.jpg";
 import ITVImg from "assets/images/MainPage/refences/itv.jpg";
@@ -34,53 +33,44 @@ const ReferenceList = () => {
             </ReferenceListItem>
             <ReferenceListItem>
               <ReferenceListLogo
-                src={BeefImg}
-                alt="Логотип компанії срібна цаца"
-              />
-            </ReferenceListItem>
-            <ReferenceListItem>
-              <ReferenceListLogo
                 src={GWImg}
-                alt="Логотип компанії срібна цаца"
+                alt="Логотип компанії зелений кит"
                 width="160px"
               />
             </ReferenceListItem>
             <ReferenceListItem>
-              <ReferenceListLogo
-                src={GYImg}
-                alt="Логотип компанії срібна цаца"
-              />
+              <ReferenceListLogo src={GYImg} alt="Логотип компанії грін ярд" />
             </ReferenceListItem>
             <ReferenceListItem>
               <ReferenceListLogo
                 src={ITVImg}
-                alt="Логотип компанії срібна цаца"
+                alt="Логотип компанії ІТВ телеканал"
               />
             </ReferenceListItem>
             <ReferenceListItem>
               <ReferenceListLogo
                 src={KabanchiImg}
-                alt="Логотип компанії срібна цаца"
+                alt="Логотип компанії кабанчі"
               />
             </ReferenceListItem>
             <ReferenceListItem>
               <ReferenceListLogo
                 src={AIImg}
-                alt="Логотип компанії срібна цаца"
+                alt="Логотип компанії арома інтер"
                 width="100%"
               />
             </ReferenceListItem>
             <ReferenceListItem>
               <ReferenceListLogo
                 src={RevocandaImg}
-                alt="Логотип компанії срібна цаца"
+                alt="Логотип компанії ревоканда плюс"
                 width="100%"
               />
             </ReferenceListItem>
             <ReferenceListItem>
               <ReferenceListLogo
                 src={PDImg}
-                alt="Логотип компанії срібна цаца"
+                alt="Логотип компанії пивна дума"
                 width="100%"
               />
             </ReferenceListItem>
