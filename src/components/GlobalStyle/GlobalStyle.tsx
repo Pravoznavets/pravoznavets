@@ -11,6 +11,8 @@ body {
     text-rendering: optimizeSpeed;
     overflow-x: hidden;
     color: ${({ theme }) => theme.color.primaryTextColor};
+    user-select: none;
+    scroll-behavior: smooth;
 }
 
 code {

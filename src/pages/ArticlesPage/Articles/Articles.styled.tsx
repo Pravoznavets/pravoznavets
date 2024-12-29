@@ -1,15 +1,23 @@
 import styled from "styled-components";
 
 export const ArticleContainer = styled.div`
-  padding: 60px 30px;
+  padding: 20px 0;
   color: ${({ theme }) => theme.color.primaryTextColor};
+
+  @media $(selectTablet) {
+    padding: 60px 30px;
+  }
 `;
 
 export const ArticleTitle = styled.h1`
   text-align: center;
   margin-bottom: 24px;
   margin-top: 24px;
-  font-size: 40px;
+  font-size: 32px;
+
+  @media $(selectTablet) {
+    font-size: 40px;
+  }
 `;
 
 export const ArticleParagraphTitle = styled.h2`

@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+export const LoaderWrapper = styled.div`
+  position: relative;
+
+  width: 100%;
+  height: 75vh;
+`;
+
 export const ImgLoader = styled.img`
   position: absolute;
   top: calc(50% - 90px);
